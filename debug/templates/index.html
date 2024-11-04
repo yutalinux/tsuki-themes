@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>テーマエディタ</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .theme {
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+      }
+      input[type="color"] {
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>テーマエディタ</h1>
+      {% for theme in themes %}
+      <div class="theme">
+        <h2>{{ theme.name }}</h2>
+        <form onsubmit="updateTheme(event, '{{ theme.name }}')">
+          {% for key, value in theme.items() %} {% if key != 'name' %}
+          <label>
+            {{ key }}:
+            <input type="color" name="{{ key }}" value="{{ value }}" /> </label
+          ><br />
+          {% endif %} {% endfor %}
+          <button type="submit">更新</button>
+        </form>
+      </div>
+      {% endfor %}
+    </div>
+
+    <script>
+      function updateTheme(event, themeName) {
+        event.preventDefault();
+        const form = event.target;
+        const formData = new FormData(form);
+        const updatedTheme = { name: themeName };
+        for (let [key, value] of formData.entries()) {
+          updatedTheme[key] = value;
+        }
+
+        fetch("/update_theme", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(updatedTheme),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.status === "success") {
+              alert("テーマが更新されました");
+            }
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+            alert("エラーが発生しました");
+          });
+      }
+    </script>
+  </body>
+</html>
