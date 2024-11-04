@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Light Blue",
+    "accent_color": "#a8e6ff",
+    "link_color": "#a0d9e8",
+    "text_color": "#ffffff",
+    "secondary_color": "#87ceeb",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Amber Yellow",
+    "accent_color": "#FFC300",
+    "link_color": "#FFDA00",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#c3b12d",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Sky Blue",
+    "accent_color": "#2070b9",
+    "link_color": "#1B6D99",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#7eaed5",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Deep Red",
+    "accent_color": "#C21807",
+    "link_color": "#A22020",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#af3030",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Emerald Green",
+    "accent_color": "#50C878",
+    "link_color": "#3BBF6D",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#A0D6B4",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Purple",
+    "accent_color": "#9B59B6",
+    "link_color": "#8A3F8A",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#D8BFD8",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Pink",
+    "accent_color": "#F4A6D7",
+    "link_color": "#EFA4C0",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#D59BCB",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Bright Red",
+    "accent_color": "#FF4D4D",
+    "link_color": "#FF1A1A",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#BF0000",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Vibrant Orange",
+    "accent_color": "#FF7F3F",
+    "link_color": "#FF5F00",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#BF4F00",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Sunny Yellow",
+    "accent_color": "#FFD54F",
+    "link_color": "#FFC107",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#BF9F00",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Fresh Green",
+    "accent_color": "#4CAF50",
+    "link_color": "#388E3C",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#3B8A3B",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Cool Turquoise",
+    "accent_color": "#009688",
+    "link_color": "#00796B",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#00695C",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Bright Blue",
+    "accent_color": "#2196F3",
+    "link_color": "#1976D2",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#0D47A1",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Deep Indigo",
+    "accent_color": "#3F51B5",
+    "link_color": "#303F9F",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#283593",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Bright Violet",
+    "accent_color": "#9C27B0",
+    "link_color": "#8E24AA",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#6A1B9A",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Soft Pink",
+    "accent_color": "#F06292",
+    "link_color": "#EC407A",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#D81B60",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Warm Brown",
+    "accent_color": "#8D6E63",
+    "link_color": "#795548",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#5D4037",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Soft Beige",
+    "accent_color": "#D7CCC8",
+    "link_color": "#BCAAA4",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#A1887F",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Olive Green",
+    "accent_color": "#8D9B0A",
+    "link_color": "#7C9200",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#6B750A",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Mint Green",
+    "accent_color": "#98DFD6",
+    "link_color": "#66CDAA",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#4C8C7A",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Coral Pink",
+    "accent_color": "#FF6F61",
+    "link_color": "#FF3D32",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#BF3E30",
+    "back_color": "#1e1e1e"
+  },
+  {
+    "name": "Crimson Red",
+    "accent_color": "#DC143C",
+    "link_color": "#C71585",
+    "text_color": "#FFFFFF",
+    "secondary_color": "#A50028",
+    "back_color": "#1e1e1e"
+  }
+]
