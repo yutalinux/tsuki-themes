@@ -1,8 +1,15 @@
-$border1-color: #555555;
-$border2-color: #333333;
-$bg1-color: #222222;
-$bg2-color: #444444;
-$accent1-color: #4179E2;
-$accent2-color: #185EDE;
-$error1-color: #B22727;
+window {
+  border: 1px solid #555555;
+  border-top-color: #333333;
+  background-color: transparent;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #222222;
+  box-shadow: none
 
+  & .titlebar {
+    background-color: #222222;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+}
